@@ -119,7 +119,7 @@ $("#reset").on("click", function () {
         $("#wins").html("Wins:" + 0);
         $("#losses").html("Losses:" + 0);
         $("#yourScore").html(yourScoreIs);
-        $("#message").html();
+        $("#message").html("");
         randomNumGen();
         randomGemGen();
     });
